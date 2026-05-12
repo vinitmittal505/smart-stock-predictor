@@ -118,4 +118,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ---
 
 ## 🙌 Credits
-Built with passion by [Your Name] using the Google Gemini Ecosystem.
+Built with passion by Vinit using the Google Gemini Ecosystem.
