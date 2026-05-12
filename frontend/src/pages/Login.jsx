@@ -111,7 +111,7 @@ const Login = () => {
                   type="text"
                   required
                   className="input-field"
-                  placeholder="e.g. admin"
+                  placeholder="admin"
                   value={username}
                   onChange={(e) => setUsername(e.target.value)}
                 />
@@ -122,7 +122,7 @@ const Login = () => {
                   type="password"
                   required
                   className="input-field"
-                  placeholder="••••••••"
+                  placeholder="admin123"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                 />
