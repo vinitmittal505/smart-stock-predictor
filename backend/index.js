@@ -23,7 +23,10 @@ mongoose.connect(process.env.MONGODB_URI)
   })
   .catch(err => console.error('MongoDB Connection Error:', err));
 
-app.use(cors());
+app.use(cors({
+  origin: process.env.FRONTEND_URL || 'http://localhost:5173', // Use environment variable for frontend URL
+  credentials: true
+}));
 app.use(morgan('dev'));
 app.use(express.json());
 
